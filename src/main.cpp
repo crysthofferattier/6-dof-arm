@@ -114,6 +114,7 @@ void printWifiStatus()
 
 void calibration()
 {
+  Serial.println("Calibration");
   svBase.write(90);
   svShoulder.write(90);
   svElbow.write(90);
